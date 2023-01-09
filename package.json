@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-tsuyoshi84",
+  "version": "0.1.0",
+  "description": "ESLint config from Tsuyoshi",
+  "main": "index.cjs",
+  "scripts": {},
+  "author": "Tsuyoshi Yamaguchi <ronoya442@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}
