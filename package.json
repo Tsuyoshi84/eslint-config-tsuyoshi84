@@ -4,10 +4,17 @@
   "description": "ESLint config from Tsuyoshi",
   "main": "index.cjs",
   "repository": "git@github.com:Tsuyoshi84/eslint-config-tsuyoshi84.git",
-  "scripts": {},
   "author": "Tsuyoshi Yamaguchi <ronoya442@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^8.31.0"
+  "dependencies": {
+    "eslint": "^8.0.0",
+    "eslint-plugin-jsdoc": "^39.6.4"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
   }
 }
