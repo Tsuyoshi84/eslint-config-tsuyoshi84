@@ -7,8 +7,8 @@
   "author": "Tsuyoshi Yamaguchi <ronoya442@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^8.0.0",
-    "eslint-plugin-jsdoc": "^39.6.4"
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "eslint-plugin-unicorn": "^45.0.2"
   },
   "peerDependencies": {
     "eslint": "^8.0.0"
