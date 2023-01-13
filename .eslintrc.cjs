@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', 'prettier'],
   plugins: ['jsdoc', 'unicorn'],
   rules: {
     // jsdoc plugin

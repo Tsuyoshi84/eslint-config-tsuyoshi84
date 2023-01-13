@@ -1,10 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
+  eslint-config-prettier: ^8.6.0
   eslint-plugin-jsdoc: ^39.6.4
   eslint-plugin-unicorn: ^45.0.2
 
 dependencies:
+  eslint-config-prettier: 8.6.0
   eslint-plugin-jsdoc: 39.6.4
   eslint-plugin-unicorn: 45.0.2
 
@@ -127,6 +129,13 @@ packages:
   /escape-string-regexp/4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
+    dev: false
+
+  /eslint-config-prettier/8.6.0:
+    resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
     dev: false
 
   /eslint-plugin-jsdoc/39.6.4:
