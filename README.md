@@ -7,7 +7,7 @@
 Install the package.
 
 ```sh
-npm install eslint-config-tsuyoshi84
+npm install -D eslint eslint-config-tsuyoshi84
 ```
 
 Add the package to `extends` in the ESLint config
@@ -15,5 +15,13 @@ Add the package to `extends` in the ESLint config
 ```js
 {
   "extends": ["tsuyoshi84"]
+}
+```
+
+For TypeScript, use `tsuyoshi84/typescript`.
+
+```js
+{
+  "extends": ["tsuyoshi84/typescript"]
 }
 ```

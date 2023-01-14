@@ -2,18 +2,24 @@
   "name": "eslint-config-tsuyoshi84",
   "version": "0.4.0",
   "description": "ESLint config from Tsuyoshi",
-  "main": "index.cjs",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
   "repository": "git@github.com:Tsuyoshi84/eslint-config-tsuyoshi84.git",
   "author": "Tsuyoshi Yamaguchi <ronoya442@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-jsdoc": "^39.6.4",
     "eslint-plugin-unicorn": "^45.0.2"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
-    "prettier": "^2.8.0"
+    "prettier": "^2.8.0",
+    "typescript": "^4.8.4"
   },
   "scripts": {
     "lint": "eslint .",
