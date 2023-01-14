@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tsuyoshi84",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "ESLint config from Tsuyoshi",
   "keywords": [
     "eslint-config"
